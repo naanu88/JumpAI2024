@@ -52,7 +52,7 @@
       const { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } = require("@google/generative-ai");
 
       const MODEL_NAME = "gemini-1.0-pro";
-      const API_KEY = "AIzaSyDg3jFDoB7TxOHnMw8Qb0AkMdEYTIYMfAA"; // Replace with your actual Google Generative AI API key
+      const API_KEY = "process.env.REACT_APP_API_KEY"; // Replace with your actual Google Generative AI API key
 
       async function runChat(userText) {
         const genAI = new GoogleGenerativeAI(API_KEY);
