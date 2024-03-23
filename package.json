@@ -1,0 +1,11 @@
+{
+  "name": "chat-with-jump", // Replace with a descriptive name for your project
+  "version": "1.0.0",
+  "description": "Chat application using Google Generative AI",
+  "scripts": {
+    "start": "node index.js" // Replace with the entry point of your application (if different)
+  },
+  "dependencies": {
+    "@google/generative-ai": "^2.0.0"  // Specify the package version
+  }
+}
